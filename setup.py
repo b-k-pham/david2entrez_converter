@@ -1,8 +1,8 @@
 from distutils.core import setup
 setup(
-  name = 'david_to_entrez_converter',
-  packages = ['david_to_entrez_converter'],
-  version = '0.1',
+  name = 'david2entrez_converter',
+  packages = ['david2entrez_converter'],
+  version = '0.11',
   license='MIT',
   description = 'Convert the HGNC gene names to ENTREZ id available in the DAVID bioinformatics database.',
   author = 'Benjamin Pham',
@@ -12,8 +12,7 @@ setup(
   keywords = ['DAVID','Gene','Conversion'],
   install_requires=[
           'pandas',
-          'numpy',
-          'os'
+          'numpy'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
