@@ -1,4 +1,4 @@
-# NOTE: I AM NOT AFFILIATED WITH THE DAVID NCIFCRF GROUP. IF FOR ANY REASON USE OF THE DATA IN THIS WAY IS PROHIBITED, PLEASE LET ME KNOW
+# NOTE: I AM NOT AFFILIATED WITH THE DAVID NCIFCRF GROUP. IF FOR ANY REASON USE OF THE DATA IN THIS WAY IS PROHIBITED, PLEASE LET ME KNOW AT bkpham@ucsd.edu
 
 Anyone can freely retrieve the data themselves following the instructions in this link (https://david-bioinformatics.freeforums.net/thread/42/first-time-user)
 
