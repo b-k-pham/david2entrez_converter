@@ -1,4 +1,4 @@
-This is a small script created to make converting general gene names to ENTREZ ids in the DAVID knowledge base (https://david.ncifcrf.gov/home.jsp).
+This is a small script created to convert general gene names to ENTREZ ids in the DAVID knowledge base (https://david.ncifcrf.gov/home.jsp). This is useful since one can then upload the converted ids to DAVID directly instead of going through the usual conversion process.
 
 Anyone can freely retrieve the data themselves following the instructions in this link (https://david-bioinformatics.freeforums.net/thread/42/first-time-user)
 
