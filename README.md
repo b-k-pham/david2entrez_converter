@@ -19,3 +19,21 @@ z = david2entrez_converter.Gene2Entrez_Dict()
 ```
 
 Then you can simply plug in your gene names and get the ENTREZ ids out. For example:
+
+```
+genes = ['AHI1','NBPF8','NOTCH1']
+
+convert = []
+
+for gene in genes:
+    try:
+        convert.append(z[gene])
+    except:
+        pass
+        
+print (convert)
+```
+
+```
+[54806, 728841, 4851]
+```
