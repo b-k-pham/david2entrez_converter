@@ -7,7 +7,7 @@ Anyone can freely retrieve the data themselves following the instructions in thi
 
 ## USAGE
 
-First, import the package -
+First, import the package:
 
 ```
 from david2entrez_converter import david2entrez_converter
