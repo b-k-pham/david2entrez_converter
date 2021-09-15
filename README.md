@@ -34,7 +34,7 @@ for gene in genes:
     except:
         pass
         
-print (convert)
+print(convert)
 ```
 
 ```
