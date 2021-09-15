@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import os
 
-
-def Gene2Entrez():
-    DAVID_Entrez = pd.read_csv('ENTREZ_GENE_ID2DAVID_GENE_NAME.txt',sep = '\t',header = None)
+def Gene2Entrez_Dict():
+    fpath = os.path.dirname(os.path.abspath(__file__)) + '/ENTREZ_GENE_ID2DAVID_GENE_NAME.txt'
+    DAVID_Entrez = pd.read_csv(fpath,sep = '\t',header = None)
     DAVID_Entrez = DAVID_Entrez.rename(columns = {0: 'ENTREZ', 1: 'Map'})
     Map = DAVID_Entrez['Map'].values.tolist()
     OFC = []
