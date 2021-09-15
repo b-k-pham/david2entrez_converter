@@ -10,12 +10,12 @@ Anyone can freely retrieve the data themselves following the instructions in thi
 
 ## USAGE
 
-First, import the package:
+Import the package:
 
 ```
 from david2entrez_converter import david2entrez_converter
 ```
-Then retrieve the dictionary:
+Retrieve the dictionary:
 
 ```
 z = david2entrez_converter.Gene2Entrez_Dict()
