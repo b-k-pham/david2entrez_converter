@@ -17,3 +17,5 @@ Then retrieve the dictionary:
 ```
 z = david2entrez_converter.Gene2Entrez_Dict()
 ```
+
+Then you can simply plug in your gene names and get the ENTREZ ids out. For example:
